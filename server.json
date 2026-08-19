@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/contas_enel_rj_instalacoes-mcp",
+  "title": "Enel RJ: Lista de Instalações",
+  "description": "Enel RJ: Installations List, official-source lookup. Platform-hosted, pay per query with prepaid cre",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/contas_enel_rj_instalacoes-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_contas_enel_rj_instalacoes"
+    }
+  ]
+}
